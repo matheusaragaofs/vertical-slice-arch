@@ -1,6 +1,6 @@
 import express from "express"
-import { CreateLogbookController } from "./CreateLogbookController"
-import { GetLogbookController } from "./GetLogbookController"
+import { CreateLogbookController } from "../features/create-logbook/CreateLogbookController"
+import { GetLogbookController } from "../features/get-logbook/GetLogbookController"
 
 export class ApiServer {
   public static async run(

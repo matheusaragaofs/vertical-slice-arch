@@ -1,5 +1,5 @@
 import { Request, Response } from "express"
-import { GetLoogbookUseCase } from "../application/GetLogbookUseCase"
+import { GetLoogbookUseCase } from "./GetLogbookUseCase"
 
 export class GetLogbookController {
   public constructor(private readonly _useCase: GetLoogbookUseCase) {}

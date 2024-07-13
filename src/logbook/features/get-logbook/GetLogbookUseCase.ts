@@ -1,5 +1,5 @@
-import { Logbook } from "../domain/Logbook"
-import { ILogbookRepository } from "./ILogbookRepository"
+import { Logbook } from "../../domain/Logbook"
+import { ILogbookRepository } from "../../shared/ILogbookRepository"
 
 interface IUseCase<TInput, TOutput> {
   execute(input: TInput): Promise<TOutput>

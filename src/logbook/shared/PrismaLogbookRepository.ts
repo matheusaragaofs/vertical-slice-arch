@@ -1,5 +1,5 @@
 import { PrismaClient } from "@prisma/client"
-import { ILogbookRepository } from "../application/ILogbookRepository"
+import { ILogbookRepository } from "./ILogbookRepository"
 import { Logbook } from "../domain/Logbook"
 
 export class PrismaLogbookRepository implements ILogbookRepository {

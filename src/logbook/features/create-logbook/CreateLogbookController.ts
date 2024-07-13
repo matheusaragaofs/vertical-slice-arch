@@ -2,7 +2,7 @@ import { Request, Response } from "express"
 import {
   CreateLogbookUseCase,
   ICreateLogbookResult,
-} from "../application/CreateLogbookUseCase"
+} from "./CreateLogbookUseCase"
 
 
 
