@@ -1,3 +1,5 @@
-export async function bootstrap(): Promise<string> {
+export async function bootstrap(): Promise<string>{
   return "bootstrapped 👋"
 }
+
+bootstrap()
